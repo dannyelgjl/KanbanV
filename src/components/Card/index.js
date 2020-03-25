@@ -2,14 +2,16 @@ import React from "react";
 
 import { Container, Label } from "./styles";
 
-export default function Card() {
+export default function Card({ data }) {
   return (
     <Container>
       <header>
-        <Label color="#040404" />
+        {data.labels.map(label => (
+          <Label key={label} color={label} />
+        ))}
       </header>
-      <p>Fazer integração completa da aplicação</p>
-      <img src="https://avatars3.githubusercontent.com/u/54491980?v=4" alt="" />
+      <p>{data.content}</p>
+      {data.user && <img src={data.user} />}
     </Container>
   );
 }

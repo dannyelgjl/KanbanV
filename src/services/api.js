@@ -7,33 +7,31 @@ export function loadLists() {
         {
           id: 1,
           content: "Estudar módulo 01 de NodeJS",
-          labels: ["#7159c1"],
+          labels: ["#054baf"],
           user: "https://avatars3.githubusercontent.com/u/54491980?v=4"
         },
         {
           id: 2,
-          content:
-            "Criar vídeo para o Youtube ensinando a recriar a interface do Pipefy",
-          labels: ["#7159c1"],
+          content: "Botar pra jogo nas ranqueadas de Humberto",
+          labels: ["#054baf"],
           user: "https://avatars3.githubusercontent.com/u/54491980?v=4"
         },
         {
           id: 3,
           content: "Estudar módulo 03 de React Native",
-          labels: ["#7159c1"],
+          labels: ["#054baf"],
           user: "https://avatars3.githubusercontent.com/u/54491980?v=4"
         },
         {
           id: 4,
-          content:
-            'Gravar Aula "NextJS: Utilizando server-side rendering com ReactJS"',
-          labels: ["#54e1f7"],
+          content: 'Botar pra jogo"',
+          labels: ["#054baf"],
           user: "https://avatars3.githubusercontent.com/u/54491980?v=4"
         },
         {
           id: 5,
-          content: "Gravar testes e deploy ReactJS",
-          labels: ["#54e1f7"],
+          content: "Fazer deploy ReactJS",
+          labels: ["#054baf"],
           user: "https://avatars3.githubusercontent.com/u/54491980?v=4"
         }
       ]
@@ -44,8 +42,8 @@ export function loadLists() {
       cards: [
         {
           id: 6,
-          content: "Recriando clone do Pipefy",
-          labels: [],
+          content: "Estudando Styled-Components",
+          labels: ["#d0680f"],
           user: "https://avatars3.githubusercontent.com/u/54491980?v=4"
         }
       ]
@@ -56,20 +54,20 @@ export function loadLists() {
       cards: [
         {
           id: 7,
-          content: "Gravar sobre Geolocalização e mapas com React Native",
-          labels: ["#7159c1"],
+          content: "Trolando as raqueadas",
+          labels: ["#d01010"],
           user: "https://avatars3.githubusercontent.com/u/54491980?v=4"
         },
         {
           id: 8,
-          content: "Gravar testes e deploy ReactJS",
-          labels: ["#54e1f7"],
+          content: "Parei de dormir",
+          labels: ["#d01010"],
           user: "https://avatars3.githubusercontent.com/u/54491980?v=4"
         },
         {
           id: 9,
-          content: "Ajustes na biblioteca unform",
-          labels: []
+          content: "Ajustes no ST1254 P-Sanar",
+          labels: ["#d01010"]
         }
       ]
     },
@@ -80,19 +78,19 @@ export function loadLists() {
       cards: [
         {
           id: 10,
-          content: "Gravar aula sobre deploy e CI com React Native",
-          labels: []
+          content: "Estressar Humberto",
+          labels: ["#16a71b"]
         },
         {
           id: 12,
-          content: "Gravar testes e deploy ReactJS",
-          labels: ["#54e1f7"]
+          content: "Entrar na call com voz de Robô",
+          labels: ["#16a71b"]
         },
         {
           id: 13,
           content:
-            'Gravar Aula "Internacionalização de aplicações Node.js, ReactJS e React Native"',
-          labels: ["#7159c1"]
+            'Feito "Internacionalização de aplicações Node.js, ReactJS e React Native"',
+          labels: ["#16a71b"]
         }
       ]
     }
