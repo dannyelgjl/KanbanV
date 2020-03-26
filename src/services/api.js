@@ -49,25 +49,51 @@ export function loadLists() {
       ]
     },
     {
+      title: "Erros para ajustar",
+      creatable: false,
+      cards: [
+        {
+          id: 14,
+          content: "Falha na autenticação do login",
+          labels: ["#de0101"],
+          user: "https://avatars3.githubusercontent.com/u/54491980?v=4"
+        }
+      ]
+    },
+
+    {
+      title: "Aplicações em fase de Homologação",
+      creatable: false,
+      cards: [
+        {
+          id: 15,
+          content: "Falha na autenticação do login",
+          labels: ["#20a5bb"],
+          user: "https://avatars3.githubusercontent.com/u/54491980?v=4"
+        }
+      ]
+    },
+
+    {
       title: "Pausado",
       creatable: false,
       cards: [
         {
           id: 7,
           content: "Trolando as raqueadas",
-          labels: ["#d01010"],
+          labels: ["#5b0986"],
           user: "https://avatars3.githubusercontent.com/u/54491980?v=4"
         },
         {
           id: 8,
           content: "Parei de dormir",
-          labels: ["#d01010"],
+          labels: ["#5b0986"],
           user: "https://avatars3.githubusercontent.com/u/54491980?v=4"
         },
         {
           id: 9,
           content: "Ajustes no ST1254 P-Sanar",
-          labels: ["#d01010"]
+          labels: ["#5b0986"]
         }
       ]
     },
